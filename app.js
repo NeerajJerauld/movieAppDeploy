@@ -1,7 +1,7 @@
 // importing
 const express = require('express');
 const cors = require('cors')
-const { create, readAll, remove, update,simpleFunction } = require('./crudoperator')
+// const { create, readAll, remove, update,simpleFunction } = require('./crudoperator')
 
 //initialization
 const app = express();
