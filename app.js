@@ -26,7 +26,7 @@ app.get('/*', function(req, res) {
     ,'/build/index.html')); });
 
 
-app.listen(24000,()=>{
-    console.log("app is working on port 24000");
+app.listen(3000,()=>{
+    console.log("app is working on port 3000");
 
 })
