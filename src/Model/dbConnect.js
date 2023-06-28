@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const dotenv = require('dotenv').config();
 
 mongoose
-  .connect(process.env.DB_CONNECT)
+  .connect("mongodb+srv://userone:userone@njmongodbcluster.m9krg.mongodb.net/moviedb?retryWrites=true&w=majority")
   .then(() => {
     console.log("db connected => moviedb");
   })
